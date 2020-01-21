@@ -1,0 +1,30 @@
+.resources {
+  padding: 30px 0;
+
+  img { 
+    rotate: 20deg;
+  }
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    color: #9bf0e1;
+  }
+
+  p {
+    color: white;
+  }
+
+  .rotacionar {
+    transform: rotate(30deg);
+    padding-left: 50px;
+  }
+}

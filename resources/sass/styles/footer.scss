@@ -1,0 +1,45 @@
+footer {
+  background: #000;
+  position: relative;
+  padding: 30px 0;
+
+  .img-logo {
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: url('../../imagens/spotify.svg') no-repeat;        
+    background-size: contain;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+  }
+
+  .nav-footer {
+    list-style-type: none;
+    padding: 5px 0;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+
+      &:hover {
+        color: #9bf0e1; 
+      }
+    }
+  }
+
+  .nav-share {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.banner {
+  height: 80%;
+  width: 100%;
+  display: table;
+
+  .text-banner {
+    text-align: center;
+    color: white;
+    display: table-cell ;
+    vertical-align: middle !important;
+
+    h1 {
+      font-size: 100px;
+      font-weight: 900;
+      letter-spacing: -8px;
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      color: white;
+      border-radius: 500px;
+      font-size: 18px;
+      font-weight: 900;
+      padding: 10px 35px;
+      margin: 0 15px;
+      transition: ease all 0.2s;
+
+      &-spotify-free {
+        background: #7c25f8;
+
+        &:hover {
+          background: #6207e3;
+        }
+      }
+
+      &-spotify-premium {
+        background: transparent;
+        border: 2px solid white;
+
+        &:hover {
+          background: white;
+          color: #000;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// Fonts
+
+// Variables
+@import 'variables';
+
+@import 'styles/global.scss';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//Seções
+@import 'styles/header.scss';
+@import 'styles/banner.scss';
+@import 'styles/content.scss';
+@import 'styles/resources.scss';
+@import 'styles/footer.scss';
